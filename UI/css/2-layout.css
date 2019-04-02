@@ -1,0 +1,61 @@
+.l-constrained-height1{
+    min-height: 100vh;
+    color: #ffffff;
+}
+
+@media only screen and (min-height: 842px){
+    .l-constrained-height1{
+        min-height: 842px;
+    }
+}
+
+
+
+.l-constrained-height2{
+    height: 10vh;
+}
+
+@media only screen and (min-height: 1250px){
+    .l-constrained-height2{
+        height: 8vh;
+    }
+}
+
+@media only screen and (min-height: 1900px){
+    .l-constrained-height2{
+        height: 5vh;
+    }
+}
+
+
+
+.l-highlight1{
+    background-color: #ffffff;
+}
+
+.l-highlight2{
+    background-color: #141D2E;
+    color: #ffffff;
+}
+
+
+.l-constrained{
+    margin-top: 100px;
+    justify-content: space-around;
+}
+
+.l-constrained2{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.l-b-image{
+    background-image:linear-gradient(to left,rgba(20,30,48,.9),rgba(36,59,85,.9)), url("../images/banka-hero-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.l-center{
+    text-align: center;
+}

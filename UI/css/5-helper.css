@@ -1,0 +1,64 @@
+.push-footer{
+    flex: 1;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.white-text{
+    color:white;
+}
+
+.section-heading-space{
+    margin: 20px auto;
+}
+
+.row-wrap{
+    flex-wrap: wrap;
+}
+
+.border-top-highlight1{
+    border-top: 2px solid #FFFFFF;
+}
+
+.medium{
+    font-size: medium;
+}
+
+.large{
+    font-size: 32px;
+}
+
+.unbold{
+    font-weight: normal;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.number-font{
+    font-family: tahoma;
+}
+
+.margin-v-10{
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+.margin-t-10{
+    margin-top: 10px;
+}
+
+.margin-b-15{
+    margin-bottom: 15px; 
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
+
+.make-block{
+    display: block;
+}
