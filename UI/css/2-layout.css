@@ -9,8 +9,6 @@
     }
 }
 
-
-
 .l-constrained-height2{
     height: 10vh;
 }
@@ -27,17 +25,14 @@
     }
 }
 
-
-
-.l-highlight1{
-    background-color: #ffffff;
-}
-
 .l-highlight2{
     background-color: #141D2E;
     color: #ffffff;
 }
 
+.l-highlight3{
+    background-color: #EFEFEF;
+}
 
 .l-constrained{
     margin-top: 100px;
