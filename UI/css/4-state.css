@@ -1,0 +1,22 @@
+/**
+*Are applied to harmburger-menu by javascript 
+*/
+.is-rotate-line1{
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.is-rotate-line2{
+    opacity: 0;
+}
+
+.is-rotate-line3{
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.is-shown{
+    display:flex;
+}
+
+.is-fixed{
+    position:fixed;
+}
