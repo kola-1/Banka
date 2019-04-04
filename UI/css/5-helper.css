@@ -6,6 +6,10 @@
     min-height: 100px;
 }
 
+.push-footer-150{
+    min-height: 150px;
+}
+
 .flex-container{
     display: flex;
 }
@@ -63,6 +67,10 @@
     margin-top: 100px;
 }
 
+.margin-t-50{
+    margin-top: 50px;
+}
+
 .margin-b-15{
     margin-bottom: 15px;
 }
@@ -115,3 +123,20 @@
 .border-white{
     border: 1px solid #FFFFFF;
 }
+
+.border-white-left{
+    border-left: 1px solid #FFFFFF;
+}
+
+.border-dark-left{
+    border-left: 1px solid #000000;
+}
+
+.padding-left-10{
+    padding-left: 10%;
+}
+
+.padding-right-10{
+    padding-right: 9%;
+}
+
