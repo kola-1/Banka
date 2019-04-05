@@ -49,29 +49,30 @@
                 </div>
 
                 <div class="form-container">
-                    <form>
+                    <!--The action attribute is temporary -->
+                    <form action="signin.html">
                         <h3 class="form-heading margin-b-15 capitalize">Create an account</h3>
-                        <div class="form-item">
-                            <label>First name</label>
+                        <div>
+                            <label for="first_name">First name</label>
                             <br>
-                            <input class="form-input" type="text" placeholder="first name" required>
+                            <input id="first_name" class="form-input" type="text" placeholder="first name" required>
                         </div>
-                        <div class="form-item">
-                            <label>Last name</label>
+                        <div>
+                            <label for="last_name">Last name</label>
                             <br>
-                            <input class="form-input" type="text" placeholder="last name" required>
+                            <input id="last_name" class="form-input" type="text" placeholder="last name" required>
                         </div>
-                        <div class="form-item">
-                            <label>Email</label>
+                        <div>
+                            <label for="email">Email</label>
                             <br>
-                            <input class="form-input" type="email" placeholder="email" required>
+                            <input id="email" class="form-input" type="email" placeholder="email" required>
                         </div>
-                        <div class="form-item">
-                            <label>Password</label>
+                        <div>
+                            <label for="password">Password</label>
                             <br>
-                            <input class="form-input" type="password" placeholder="password" required>
+                            <input id="password" class="form-input" type="password" placeholder="password" required>
                         </div>
-                        <div class="form-item ">
+                        <div>
                             <input class="btn btn--secondary1" type="submit" value="Sign Up">
                         </div>
                         <div>
@@ -96,7 +97,7 @@
                 <div class="flex-container row-wrap">
                     
                     <div class="card card--primary">
-                        <div class="card--center-icon">
+                        <div class="card--center-item">
                             <img src="images/svg/reliable.svg" alt="" class="card-image">
                         </div>
                         <h3 class="l-center section-heading-space capitalize">reliable</h3>
@@ -110,7 +111,7 @@
                     </div>
                     
                     <div class="card card--secodary">
-                        <div class="card--center-icon">
+                        <div class="card--center-item">
                             <img src="images/svg/efficient.svg" alt="" class="card-image">
                         </div>
                         <h3 class="l-center section-heading-space capitalize">efficient</h3>
@@ -123,7 +124,7 @@
                     </div>
 
                     <div class="card card--tertiary">
-                        <div class="card--center-icon">
+                        <div class="card--center-item">
                             <img src="images/svg/easy.svg" alt="" class="card-image">
                         </div>
                         <h3 class="l-center section-heading-space capitalize">easy</h3>
@@ -173,9 +174,9 @@
         <div class="flex-container nav-footer l-constrained section-heading-space">
             <div>
                 <ul class="flex-container nav-list-footer-container border-top-highlight1">
-                    <li class="margin-v-10"><a href="" class="nav-link white-text">About</a></li>
-                    <li class="margin-v-10"><a href="" class="nav-link white-text">Contact</a></li>
-                    <li class="margin-v-10"><a href="" class="nav-link white-text">Staff</a></li>
+                    <li class="margin-v-10 padding-right-10"><a href="" class="nav-link white-text">About</a></li>
+                    <li class="margin-v-10 border-white-left padding-left-10 padding-right-10"><a href="" class="nav-link white-text">Contact</a></li>
+                    <li class="margin-v-10 border-white-left padding-left-10"><a href="" class="nav-link white-text">Staff</a></li>
                 </ul>
             </div>
 
