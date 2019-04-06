@@ -20,3 +20,11 @@
 .is-fixed{
     overflow: hidden;
 }
+
+.is-active-page-link{
+    color: #141D2E;
+    border-color: #141D2E;
+    background-color: #FFFFFF;
+    cursor: default;
+    pointer-events: none;
+}
