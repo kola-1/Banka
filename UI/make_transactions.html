@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="images/banka-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Banka</title>
+</head>
+<body>
+    <nav class="l-highlight2 l-constrained-height2 flex-container">
+        <div class ="nav">
+            <div class="brand-container">
+                <a href="" class="brand nav-link">Banka</a>
+            </div>
+
+            <nav class="flex-container border-white">
+                <a href="" class="nav-link white-text nav-row">Sign out</a>
+            </nav>
+    </nav>
+
+    <section class="margin-t-100">
+        <div class="form-container2 l-highlight1">
+            <form>
+                <h3 class="form-heading margin-b-15 capitalize">Make a transaction</h3>
+                
+                <div>
+                    <label for="account_number">Account Number</label>
+                    <br>
+                    <input id="account_number" class="form-input input-bg" type="number" min="0" placeholder="account number" required>
+                </div>
+                
+                <div>
+                    <label for="amount">Amount</label>
+                    <br>
+                    <input id="amount" class="form-input input-bg" type="number" min="0" max="1000000" placeholder="amount" required>
+                </div>
+                
+                <div>
+                    <label for="transaction_type">Transaction Type</label>
+                    <br>
+                    <select id="transaction_type" class="input-bg form-input" required>
+                        <option value="" selected disabled><span class="disabled-text">- Select -</span></option>
+                        <option value="debit">Debit</option>
+                    </select>
+                </div>
+                
+                <div >
+                    <input class="btn btn--secondary1 width-70p" type="submit" value="Confirm">
+                </div>
+            </form>
+        </div>
+    </section>
+    <div class="push-footer-150"></div>
+
+    <footer class="l-highlight-dark-text">
+        <div class="flex-container nav-footer l-constrained section-heading-space">
+            <div>
+                <ul class="flex-container nav-list-footer-container border-top-highlight1">
+                    <li class="margin-v-10 padding-right-10"><a href="" class="nav-link white-text dark-text">Help</a></li>
+                </ul>
+            </div>
+
+            <div class="border-top-highlight1">
+            <p class="margin-t-10"> &copy; - Kola Akindoju</p>
+            <p>2019</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
