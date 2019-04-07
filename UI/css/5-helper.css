@@ -30,6 +30,10 @@
     border-top: 2px solid #FFFFFF;
 }
 
+.border-top-highlight2{
+    border-top: 1px solid #000000;
+}
+
 .medium{
     font-size: medium;
 }
