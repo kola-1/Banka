@@ -23,27 +23,33 @@
     <section class="margin-t-100">
         <div class="form-container2 l-highlight1">
             <form>
-                <h3 class="form-heading margin-b-15 capitalize">Make a transaction</h3>
+                <h3 class="form-heading margin-b-15 capitalize">Create Administrator</h3>
                 
                 <div>
-                    <label for="account_number">Account Number</label>
+                    <label for="first_name">First Name</label>
                     <br>
-                    <input id="account_number" class="form-input input-bg" type="number" min="0" placeholder="account number" required>
+                    <input id="first_name" class="form-input input-bg" type="text" placeholder="first name" required>
                 </div>
                 
                 <div>
-                    <label for="amount">Amount</label>
+                    <label for="last_name">Last Name</label>
                     <br>
-                    <input id="amount" class="form-input input-bg" type="number" min="0" max="1000000" placeholder="amount" required>
+                    <input id="last_name" class="form-input input-bg" type="text" placeholder="last name" required>
                 </div>
                 
                 <div>
-                    <label for="transaction_type">Transaction Type</label>
+                    <label for="email">Email</label>
+                    <br>
+                    <input id="email" class="form-input input-bg" type="text" placeholder="email" required>
+                </div>
+
+                <div>
+                    <label for="role">Role</label>
                     <br>
                     <select id="transaction_type" class="input-bg form-input" required>
                         <option value="" selected disabled><span class="disabled-text">- Select -</span></option>
-                        <option value="credit">Credit</option>
-                        <option value="debit">Debit</option>
+                        <option value="admin">Admin</option>
+                        <option value="staff">Staff</option>
                     </select>
                 </div>
                 
