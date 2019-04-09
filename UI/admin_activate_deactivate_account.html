@@ -12,11 +12,11 @@
     <nav class="l-highlight2 l-constrained-height2 flex-container">
         <div class ="nav">
             <div class="brand-container">
-                <a href="" class="brand nav-link">Banka</a>
+                <a href="admin_dashboard.html" class="brand nav-link">Banka</a>
             </div>
 
             <nav class="flex-container border-white">
-                <a href="" class="nav-link white-text nav-row">Sign out</a>
+                <a href="admin_signin.html" class="nav-link white-text nav-row">Sign out</a>
             </nav>
     </nav>
 
@@ -36,8 +36,8 @@
                     <br>
                     <select id="action_type" class="input-bg form-input" required>
                         <option value="" selected disabled><span class="disabled-text">- Select -</span></option>
-                        <option value="deactivate">Deactivate</option>
                         <option value="activate">Activate</option>
+                        <option value="deactivate">Deactivate</option>
                     </select>
                 </div>
                 
@@ -50,18 +50,20 @@
     <div class="push-footer-150"></div>
 
     <footer class="l-highlight-dark-text">
-        <div class="flex-container nav-footer l-constrained section-heading-space">
-            <div>
-                <ul class="flex-container nav-list-footer-container border-top-highlight2">
-                    <li class="margin-v-10 padding-right-10"><a href="" class="nav-link white-text dark-text">Help</a></li>
-                </ul>
+            <div class="flex-container nav-footer l-constrained section-heading-space">
+                <div>
+                    <ul class="flex-container make-column border-top-highlight2">
+                        <li class="margin-v-10 nav-footer--admin"><a href="admin_dashboard.html" class=" dark-text nav-link ">Home</a></li>
+                        <li class="margin-v-10 nav-footer--admin"><a href="admin_view_users.html" class=" dark-text nav-link">View Accounts</a></li>
+                        <li class="margin-v-10 nav-footer--admin"><a href="admin_create_account.html" class=" dark-text nav-link">Create Admin</a></li>
+                    </ul>
+                </div>
+    
+                <div class="border-top-highlight2">
+                <p class="margin-t-10"> &copy; - Kola Akindoju</p>
+                <p>2019</p>
+                </div>
             </div>
-
-            <div class="border-top-highlight2">
-            <p class="margin-t-10"> &copy; - Kola Akindoju</p>
-            <p>2019</p>
-            </div>
-        </div>
-    </footer>
+        </footer>
 </body>
 </html>
