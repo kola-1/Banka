@@ -71,6 +71,10 @@
     margin-top: 50px;
 }
 
+.margin-t-20{
+    margin-top: 20px;
+}
+
 .margin-b-15{
     margin-bottom: 15px;
 }
@@ -152,10 +156,19 @@
     margin-top: auto;
 }
 
+
 .padding-10{
     padding: 10px;
 }
 
 .height-50{
     height: 50px;
+}
+
+.max-width-700{
+    max-width: 700px;
+}
+
+.width-80p{
+    width: 80%;
 }
