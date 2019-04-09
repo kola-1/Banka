@@ -487,6 +487,7 @@
     width: 80%;
     height: 450px;
     max-width: 500px;
+    min-width: 320px;
     margin: 0 auto;
     border: 1px solid #000000;
     display: flex;
@@ -682,6 +683,20 @@
 .btn--tertiary:hover{
     background: #c7960f;
     border-color: #c7960f;
+}
+
+.btn--danger{
+    background:#BD2C00;
+    border-color:#BD2C00;
+    color: #FFFFFF;
+    border-radius: 7px;
+    min-width: 40%;
+    min-height: 100%;
+}
+
+.btn--danger:hover{
+    background:#922605 ;
+    border-color:#922605 ;
 }
 
 /**
