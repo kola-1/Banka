@@ -1,0 +1,23 @@
+{
+  "name": "banka",
+  "version": "1.0.0",
+  "description": "A light-weight core banking application",
+  "main": "app.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kola-1/Banka.git"
+  },
+  "keywords": [],
+  "author": "Kola Akindoju",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kola-1/Banka/issues"
+  },
+  "homepage": "https://github.com/kola-1/Banka#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
