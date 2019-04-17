@@ -1,13 +1,13 @@
-const errorData = (status, title, description, fields) => ({
-    status,
+const errorData = (title, message, fields) => ({
     title,
-    description,
-    fields,
+    message,
+    fields
 });
 
 const errors = {
     validationError: (res, errObj) => res.status(422).json({
-        error: errorData(422, 'FIELDS_VALIDATION_ERROR', 'one or more fields raised validation error', errObj),
+        status: 422,
+        error: errorData('FIELDS_VALIDATION_ERROR', 'one or more fields raised validation error', errObj),
     })
 };
 
