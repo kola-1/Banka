@@ -11,6 +11,7 @@ class AuthController {
     *@returns {object} returns response *
     */
     static signUp(req, res) {
+        const data = {};
         const id = users.length + 1;
         req.body.isAdmin = 'false';
         req.body.id = id;
@@ -18,11 +19,19 @@ class AuthController {
         users.push(req.body);
         const result = users[users.length - 1];
 
-        return res.status(201).json({
-            message: 'Signup is successful',
-            data: {
-                result
+        // eslint-disable-next-line no-restricted-syntax
+        for (const key in result) {
+            if (key === 'password' || key === 'type' || key === 'isAdmin') {
+                // eslint-disable-next-line no-continue
+                continue;
             }
+
+            data[key] = result[key];
+        }
+
+        return res.status(201).json({
+            status: 201,
+            data
         });
     }
 }

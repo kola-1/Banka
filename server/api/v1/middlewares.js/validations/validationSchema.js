@@ -15,7 +15,7 @@ const Schema = {
             .required(),
         email: Joi.string().email().required(),
         password: Joi.string().min(8).required(),
-        type: Joi.string().valid('client').required()
+        type: Joi.string().equal('client').required()
     },
     signinSchema: {
         email: Joi.string().email().required(),
